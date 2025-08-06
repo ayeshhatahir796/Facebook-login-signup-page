@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #e9ebee;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 0;
+  margin: 10px;
+}
+
+.header-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-size: 20px;
+  
+  
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.login-form input {
+  padding: 5px;
+}
+
+.login-form button {
+  padding: 5px;
+  width:80px;
+}
+
+.forgot {
+  font-size: 12px;
+  color: #dfe3ee;
+  margin-left: 5px;
+}
+
+.forgot a {
+  color: #dfe3ee;
+  margin-left: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+}
+
+.left h2 {
+  font-size: 24px;
+  color: #3b5998;
+  margin-bottom: 20px;
+}
+
+.left img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.right {
+  width: 40%;
+  background: transparent;
+}
+
+.right h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.right p {
+  margin-bottom: 10px;
+}
+
+.signup-form input[type="text"]
+ {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  
+}
+.email-login input[type="email"]
+{
+  width:82%;
+  padding:5px;
+  margin:5px 0;
+}
+.re-enter-email input[type="email"]
+{
+    width:82%;
+    padding:5px;
+    margin:5px 0;
+}
+.password input[type="password"]
+{
+    width:82%;
+    padding:5px;
+    margin:5px 0;
+}
+.birthday h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+ 
+}
+.birthday-content {
+   color:#3b5998;
+}
+.gender {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.terms {
+  font-size: 12px;
+  color: #333;
+}
+
+.signup-btn {
+  background-color: #4267b2;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.signup-form hr {
+  margin: 20px 0;
+}
+
+.signup-form a {
+  color: #385898;
+  font-weight: bold;
+}
